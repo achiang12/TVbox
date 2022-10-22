@@ -1,3 +1,33 @@
+
+var rule = {
+    title:'海兔影院',
+    host:'https://www.haitu.tv',
+    // homeUrl:'/',
+    url:'/vod/show/id/fyclass/page/fypage.html',
+    searchUrl:'/vod/search/page/fypage/wd/**.html',
+    searchable:2,//是否启用全局搜索,
+    quickSearch:0,//是否启用快速搜索,
+    filterable:0,//是否启用分类筛选,
+    headers:{//网站的请求头,完整支持所有的,常带ua和cookies
+        'User-Agent':'MOBILE_UA',
+        // "Cookie": "searchneed=ok"
+    },
+    class_parse:'.nav-menu-items&&li;a&&title;a&&href;/(\\d+).html',
+    //class_name:'电影&电视剧&综艺&动漫&纪录片',
+    //class_url:'1&2&3&4&55',
+    play_parse:true,
+    lazy:'',
+    limit:6,
+    //推荐:'.module-item;.module-item-cover&&.module-item-pic;a&&title;.lazyloaded&&data-src;.module-item-text&&Text;a&&href',
+    推荐:'.module-items;.module-item;.module-item-cover&&.module-item-pic&&a&&title;.lazyloaded&&data-src;.module-item-text&&Text;a&&href',
+    double:true, // 推荐内容是否双层定位
+    一级:'.module-list&&.module-item;.module-item-pic&&a&&title;.lazyloaded&&data-src;.module-item-text&&Text;a&&href',
+    二级:{"title":"h1.page-title&&Text;.video-info-aux&&Text","img":".lazyload&&data-src","desc":".video-info-items:eq(-2)&&Text;.video-info-items:eq(-2)&&Text;.video-info-items:eq(-2)&&Text;.video-info-items:eq(0)&&.video-info-item.video-info-actor&&Text;.video-info-items:eq(1)&&.video-info-item.video-info-actor&&Text","content":".video-info-item.video-info-content.vod_content&&Text","tabs":".module-tab-item.tab-item","lists":".module-blocklist.scroll-box:eq(#id) a"},
+    搜索:'.module-search-item;h3&&Text;img&&data-src;.module-item-text&&Text;a&&href',   
+}
+
+
+
 var rule = {
     title:'HoHo影视',
     host:'https://www.hoho.tv',
@@ -213,6 +243,56 @@ var rule={
 }
 //需三级
 
+var rule={
+    title:'188影视',
+    host:'https://188kan.com',
+    // homeUrl:'/',
+    url:'/vodshow/fyclass--------fypage---.html',
+    searchUrl:'/vod-search-page-fypage-wd-**.html',
+    searchable:2,//是否启用全局搜索,
+    quickSearch:0,//是否启用快速搜索,
+    filterable:0,//是否启用分类筛选,
+    headers:{//网站的请求头,完整支持所有的,常带ua和cookies
+        'User-Agent':'MOBILE_UA',
+        // "Cookie": "searchneed=ok"
+    },
+    //class_parse:'.nav&&ul&&li;a&&title;a&&href;.*/(.*?).html',
+    class_name:'电影&电视剧&综艺&动漫',
+    class_url:'1&2&3&4',
+    play_parse:true,
+    lazy:'',
+    limit:6,
+    推荐:'.module-main.tab-list.active&&.module-items.module-poster-items-base&&a;a&&title;img&&data-original;.module-item-note&&Text;a&&href',
+double:true, // 推荐内容是否双层定位
+一级:'.module&&a;a&&title;img&&data-original;.module-item-note&&Text;a&&href',
+二级:{"title":"h1&&Text;.tag-link&&Text","img":".module-item-pic&&img&&data-src","desc":".video-info-items:eq(0)&&Text;.video-info-items:eq(1)&&Text;.video-info-items:eq(2)&&Text;.video-info-items:eq(3)&&Text","content":".vod_content&&Text","tabs":".module-tab-item","lists":".module-player-list:eq(#id)&&.scroll-content&&a"},
+搜索:'.module-items .module-search-item;a&&title;img&&data-src;.video-serial&&Text;a&&href',
+}
 
+
+var rule={
+    title:'追剧达人',
+    host:'http://zjdr.tv',
+    url:'/vodshow/id/fyclass/page/fypage.html',
+    searchUrl:'/vod/search/page/fypage/wd/**.html',
+    searchable:2,//是否启用全局搜索,
+    quickSearch:0,//是否启用快速搜索,
+    filterable:0,//是否启用分类筛选,
+    headers:{
+        'User-Agent':'UC_UA',
+    },
+    // class_parse:'.fed-pops-navbar&&ul.fed-part-rows&&a.fed-part-eone:gt(0):lt(5);a&&Text;a&&href;.*/(.*?).html',
+    //class_parse:'.myui-header__menu&&li:gt(0):lt(6);a&&Text;a&&href;.*/(.*?).html',
+    class_name:'电影&电视剧&综艺&动漫',
+    class_url:'1&2&3&4',
+    play_parse:true,
+    lazy:'',
+    limit:6,
+    推荐:'.module-main.tab-list&&.module-items.module-poster-items-base&&a;a&&title;img&&data-original;.module-item-note&&Text;a&&href',
+   double:true, // 推荐内容是否双层定位
+   一级:'.module&&a;a&&title;img&&data-original;.module-item-note&&Text;a&&href',
+   二级:{"title":"h1&&Text;.tag-link&&Text","img":".module-item-pic&&img&&data-src","desc":".video-info-items:eq(0)&&Text;.video-info-items:eq(1)&&Text;.video-info-items:eq(2)&&Text;.video-info-items:eq(3)&&Text","content":".vod_content&&Text","tabs":".module-tab-item","lists":".module-player-list:eq(#id)&&.scroll-content&&a"},
+   搜索:'.module-items .module-search-item;a&&title;img&&data-src;.video-serial&&Text;a&&href',
+}
 
 
