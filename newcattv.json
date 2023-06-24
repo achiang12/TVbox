@@ -7,7 +7,7 @@
 "sites": [
 {"key":"csp_Nbys","name":"👑泥巴(墙外)","type":3,"api":"csp_NiNi","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_trj","name":"🛫唐人街(墙外)","type":3,"api":"csp_Tangrenjie","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;09BAF4A03D362D96F0FC14085C343191"},
-{"key":"3EDY","name":"🐞3EDY(EXO)","type":3,"api":"csp_EEEDY","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Xiaoh","name":"🛫小 宝┃墙外","type":3,"api":"csp_Xiaoh","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"If101","name":"💿If101(墙外)","type":3,"api":"csp_If101","searchable":1,"quickSearch":1,"filterable":0},
 {"key":"csp_xpath_独播库","name":" 🌾独播库(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/heroaku/TVboxo/raw/main/MaooXP/duboku.json"},
 {"key": "555","name": "555(爬虫)","type": 3,"api": "csp_Dy555","searchable": 1,"quickSearch": 1,"filterable": 1},
