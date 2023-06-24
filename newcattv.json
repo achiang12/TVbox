@@ -12,7 +12,7 @@
 {"key":"csp_xpath_独播库","name":" 🌾独播库(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/heroaku/TVboxo/raw/main/MaooXP/duboku.json"},
 {"key":"csp_XYQBiu_e9","name":" 🌌e9视频(XYQ)","type":3,"api":"csp_XYQBiu","searchable":1,"quicksearch":1,"filterable":0,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/tv-player/tvbox-line/main/box/ext/1epubnr7.json"},
 {"key":"csp_XYQBiu_wnys","name":" 🌌万能影视(XYQ)","type":3,"api":"csp_XYQBiu","searchable":1,"quicksearch":1,"filterable":0,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/tv-player/tvbox-line/main/box/ext/uhldi7ln.json"},
-{"key":"293视频","name":"🐞293视频","type":3,"api":"csp_SP293","searchable":1,"quickSearch":1,"filterable":0,"jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;09BAF4A03D362D96F0FC14085C343191"},
+{"key":"293视频","name":"🐞293视频","type":3,"api":"csp_SP293","searchable":1,"quickSearch":1,"filterable":0},
 {"key": "555","name": "555(爬虫)","type": 3,"api": "csp_Dy555","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://gitcode.net/kuukey/a/-/raw/master/jar/cs.jar;md5;3b376fbe31fb80bf131203fae225fff5"},
 {"key":"csp_QXBiubiu_555电影","name":"555电影(QXB)","type":3,"api":"csp_QXBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitea.com/zhanghong/TVBOXZY/raw/branch/main/QXB/555电影.json","jar":"https://download.kstore.space/download/2863/xsxin.jar;md5;76ddd410eca67676f4c23a24ae4c7df7"},
 {"key":"360","name":"💘360","type":3,"api":"csp_SP33","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
