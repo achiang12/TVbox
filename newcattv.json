@@ -1,6 +1,6 @@
 {
-"spider": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;6B685AF783259513BC64B2C9DE1C2B8A",
-	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+"spider":"https://download.kstore.space/download/2863/zhanghong.jar;md5;8bc28c68b7dfb8019b2fe9f02a9075ee",
+"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9kb3dubG9hZC5rc3RvcmUuc3BhY2UvZG93bmxvYWQvMjg2My9saXZlLnR4dA=="]}]}],
 "drives": [{"server":"","userName":"","password":"","type":"webdav"}],
 //"wallpaper":"https://api.lr-jia.cn/api/dnmm",
