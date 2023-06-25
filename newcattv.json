@@ -5,9 +5,8 @@
 "drives": [{"server":"","userName":"","password":"","type":"webdav"}],
 //"wallpaper":"https://api.lr-jia.cn/api/dnmm",
 "sites": [
-{"key":"csp_Nbys","name":"👑泥巴(墙外)","type":3,"api":"csp_NiNi","searchable":1,"quickSearch":1,"filterable":0,
-"jar":"http://52bsj.vip:81/api/v3/file/get/68478/1215.jar?sign=khMN9e2W4qURwPvVMCEzqy9yCBIrgkFOhBdyEAoYtWc%3D%3A0;md5;58BACE2715918A6FD783931D03586372"},
-{"key":"csp_trj","name":"🛫唐人街(墙外)","type":3,"api":"csp_Tangrenjie","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;09BAF4A03D362D96F0FC14085C343191"},
+{"key":"csp_Nbys","name":"🐞泥巴(墙外)","type":3,"api":"csp_Nbys","searchable":1,"quickSearch":1,"filterable":0,
+"jar":"http://52bsj.vip:81/api/v3/file/get/68478/1215.jar?sign=khMN9e2W4qURwPvVMCEzqy9yCBIrgkFOhBdyEAoYtWc%3D%3A0;md5;58BACE2715918A6FD783931D03586372"},{"key":"csp_trj","name":"🛫唐人街(墙外)","type":3,"api":"csp_Tangrenjie","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;09BAF4A03D362D96F0FC14085C343191"},
 {"key":"csp_Xiaoh","name":"🛫小 宝┃墙外","type":3,"api":"csp_Xiaoh","searchable":1,"quickSearch":1,"filterable":0,
 "jar":"http://52bsj.vip:81/api/v3/file/get/68478/1215.jar?sign=khMN9e2W4qURwPvVMCEzqy9yCBIrgkFOhBdyEAoYtWc%3D%3A0;md5;58BACE2715918A6FD783931D03586372"},
 
