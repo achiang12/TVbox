@@ -1,14 +1,19 @@
 {
-"spider": "http://52bsj.vip:81/api/v3/file/get/68478/1215.jar?sign=khMN9e2W4qURwPvVMCEzqy9yCBIrgkFOhBdyEAoYtWc%3D%3A0;md5;58BACE2715918A6FD783931D03586372",
+"spider": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;6B685AF783259513BC64B2C9DE1C2B8A",
 	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9kb3dubG9hZC5rc3RvcmUuc3BhY2UvZG93bmxvYWQvMjg2My9saXZlLnR4dA=="]}]}],
 "drives": [{"server":"","userName":"","password":"","type":"webdav"}],
 //"wallpaper":"https://api.lr-jia.cn/api/dnmm",
 "sites": [
-{"key":"csp_Nbys","name":"👑泥巴(墙外)","type":3,"api":"csp_NiNi","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Nbys","name":"👑泥巴(墙外)","type":3,"api":"csp_NiNi","searchable":1,"quickSearch":1,"filterable":0,
+"jar":"http://52bsj.vip:81/api/v3/file/get/68478/1215.jar?sign=khMN9e2W4qURwPvVMCEzqy9yCBIrgkFOhBdyEAoYtWc%3D%3A0;md5;58BACE2715918A6FD783931D03586372"},
 {"key":"csp_trj","name":"🛫唐人街(墙外)","type":3,"api":"csp_Tangrenjie","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;09BAF4A03D362D96F0FC14085C343191"},
-{"key":"csp_Xiaoh","name":"🛫小 宝┃墙外","type":3,"api":"csp_Xiaoh","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"If101","name":"💿If101(墙外)","type":3,"api":"csp_If101","searchable":1,"quickSearch":1,"filterable":0},
+{"key":"csp_Xiaoh","name":"🛫小 宝┃墙外","type":3,"api":"csp_Xiaoh","searchable":1,"quickSearch":1,"filterable":0,
+"jar":"http://52bsj.vip:81/api/v3/file/get/68478/1215.jar?sign=khMN9e2W4qURwPvVMCEzqy9yCBIrgkFOhBdyEAoYtWc%3D%3A0;md5;58BACE2715918A6FD783931D03586372"},
+
+{"key":"If101","name":"💿If101(墙外)","type":3,"api":"csp_If101","searchable":1,"quickSearch":1,"filterable":0,
+"jar":"http://52bsj.vip:81/api/v3/file/get/68478/1215.jar?sign=khMN9e2W4qURwPvVMCEzqy9yCBIrgkFOhBdyEAoYtWc%3D%3A0;md5;58BACE2715918A6FD783931D03586372"},
+
 {"key":"csp_xpath_独播库","name":" 🌾独播库(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/heroaku/TVboxo/raw/main/MaooXP/duboku.json"},
 {"key": "555","name": "555(爬虫)","type": 3,"api": "csp_Dy555","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"小苹果","name":"🍎小苹果","type":3,"api":"csp_LiteApple","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
